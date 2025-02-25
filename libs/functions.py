@@ -22,10 +22,7 @@ def drop_wave(x):
     Función Drop-Wave.
     x: array-like, [x1, x2]
     
-    f(x, y) = (1 + cos(12 * sqrt(x^2 + y^2))) / (0.5*(x^2 + y^2) + 2)
-    
-    *Nota: A veces se ve con un signo negativo adelante. Aquí usamos
-    la versión positiva tal como se muestra en tu imagen.
+    f(x, y) = - (1 + cos(12 * sqrt(x^2 + y^2))) / (0.5*(x^2 + y^2) + 2)
     """
     x1, x2 = x
     r = np.sqrt(x1**2 + x2**2)

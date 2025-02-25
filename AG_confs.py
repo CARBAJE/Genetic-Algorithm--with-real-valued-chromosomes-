@@ -41,5 +41,4 @@ FUNCTIONS = {
         "name": "Drop-Wave",
         "num_runs": NUM_RUNS
     }
-    # Puedes añadir más funciones aquí...
 }

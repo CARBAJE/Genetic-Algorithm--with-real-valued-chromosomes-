@@ -121,8 +121,6 @@ def sbx_crossover_with_boundaries(parent1, parent2, lower_bound, upper_bound,
         c2 = np.clip(c2, lb, ub)
         
         # Ubicar en child1, child2 respetando si originalmente x1>x2
-        # (aunque arriba ya reordenamos x1<=x2, pero si prefieres
-        #  respetar el orden original, puedes hacer un if).
         child1[i] = c1
         child2[i] = c2
     

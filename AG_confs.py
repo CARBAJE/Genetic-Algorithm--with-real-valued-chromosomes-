@@ -20,7 +20,7 @@ CROSSOVER_PROB = 0.9  # Probabilidad de aplicar cruzamiento
 ETA_C = 15            # Índice de distribución para SBX
 
 # Parámetros de la mutación polinomial
-MUTATION_PROB = 1.0 / 2  # Probabilidad de mutar cada gen
+MUTATION_PROB = 10.0 / 2  # Probabilidad de mutar cada gen
 ETA_MUT = 20                         # Índice de distribución para mutación polinomial
 
 best_solutions_list = [] 

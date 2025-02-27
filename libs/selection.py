@@ -6,7 +6,7 @@ def vectorized_tournament_selection(fitness, num_tournaments, tournament_size, p
     Genera una matriz de torneos de forma vectorizada y retorna, para cada torneo,
     el índice del individuo ganador (el de menor fitness).
     
-    Parámetros:
+    Args:
       - fitness: array con los fitness de la población (longitud = pop_size).
       - num_tournaments: número de torneos a realizar (por ejemplo, el número total
                          de selecciones de padres requeridas en la generación).
@@ -17,7 +17,7 @@ def vectorized_tournament_selection(fitness, num_tournaments, tournament_size, p
       - unique_in_row: si True, en cada torneo (fila) los candidatos serán únicos.
                     (Por defecto se permite repetir en la fila).
     
-    Retorna:
+    Returns:
       - winners: array de índices ganadores (uno por torneo).
       - tournament_matrix: la matriz de candidatos (de tamaño [num_tournaments x tournament_size]).
     """
